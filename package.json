@@ -2,7 +2,6 @@
   "name": "@vitejs/mockjs-lite",
   "version": "0.0.1",
   "description": "Vite Plugin form mockjs-lite",
-  "main": "index.ts",
   "scripts": {
     "test": "vitest",
     "dev": "vite",
@@ -43,5 +42,17 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "mockjs-lite": "^0.3.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vite-plugin-mock.lite.umd.js",
+  "types": "./src/index.ts",
+  "module": "./dist/vite-plugin-mock.lite.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vite-plugin-mock.lite.es.js",
+      "require": "./dist/vite-plugin-mock.lite.umd.js"
+    }
   }
 }
