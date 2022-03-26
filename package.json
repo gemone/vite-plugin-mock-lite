@@ -1,5 +1,5 @@
 {
-  "name": "@vitejs/mockjs-lite",
+  "name": "vite-plugin-mock-lite",
   "version": "0.0.1",
   "description": "Vite Plugin form mockjs-lite",
   "scripts": {
