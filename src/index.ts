@@ -12,7 +12,7 @@ interface Options {
   delay: string | number;
 }
 
-export const pluginMockjsLite: Plugin = (options: Options) => {
+export const pluginMockjsLite: (options: Options) => Plugin = (options: Options) => {
   const { dir = 'mock', path = '/api', delay = 0 } = options;
 
   return {

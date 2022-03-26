@@ -2,6 +2,8 @@ import { defineConfig } from 'vite';
 
 import { resolve } from 'path';
 
+import dts from 'vite-plugin-dts';
+
 module.exports = defineConfig({
   build: {
     lib: {
@@ -13,4 +15,5 @@ module.exports = defineConfig({
       external: ['fs'],
     },
   },
+  plugins: [dts()],
 });
