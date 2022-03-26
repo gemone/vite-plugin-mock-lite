@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-mock-lite",
-  "version": "0.0.1",
+  "version": "0.0.1-r1",
   "description": "Vite Plugin form mockjs-lite",
   "scripts": {
     "test": "vitest",
@@ -37,11 +37,11 @@
     "eslint-plugin-import": "^2.25.4",
     "shipjs": "^0.24.3",
     "vite": "^2.8.6",
-    "vitest": "^0.7.11"
-  },
-  "dependencies": {
+    "vitest": "^0.7.11",
     "lodash": "^4.17.21",
     "mockjs-lite": "^0.3.3"
+  },
+  "dependencies": {
   },
   "files": [
     "dist"
@@ -51,8 +51,8 @@
   "module": "./dist/vite-plugin-mock.lite.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vite-plugin-mock.lite.es.js",
-      "require": "./dist/vite-plugin-mock.lite.umd.js"
+      "import": "./dist/vite-plugin-mock-lite.es.js",
+      "require": "./dist/vite-plugin-mock-lite.umd.js"
     }
   }
 }

@@ -7,7 +7,7 @@ module.exports = defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'vite-plugin-mock-lite',
-      fileName: (format) => `vite-plugin-mock.lite.${format}.js`,
+      fileName: (format) => `vite-plugin-mock-lite.${format}.js`,
     },
     rollupOptions: {
       external: ['fs'],
