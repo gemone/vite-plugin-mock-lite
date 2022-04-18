@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-mock-lite",
-  "version": "0.0.1-r3",
+  "version": "0.0.3",
   "description": "Vite Plugin form mockjs-lite",
   "scripts": {
     "test": "vitest",
